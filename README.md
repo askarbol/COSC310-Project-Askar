@@ -1,4 +1,4 @@
-# COSC 310 Assignment 3 (I know the repository is named 2, we used the same one)
+# COSC 310 Individual project
 
 ![Cute lil robot!](https://upload.wikimedia.org/wikipedia/commons/7/75/Kawaii_robot_power_clipart.svg)
 
@@ -7,7 +7,15 @@
 
 **CHATBOT PROGRAM**
 
-This program is meant to be a simple chatbot capable of 30 rounds of semi-natural speech. This was initally done via simple phrase recognition but has been upgraded to use python's natural language toolkit. Implemented features include:
+This program is meant to be a simple chatbot capable of 30 rounds of semi-natural speech. This was initally done via simple phrase recognition but has been upgraded to use python's natural language toolkit. This Individual part of the project adds two new API's to make conversation flow better. The two APIs that I chose are WikipediaAPI and Google Translate API.
+
+## Individual project APIs
+Wikipedia API: When user types "Search" + any word, Robot Robert returns first two sentences from wikipedia page of that word. For example: if you type in "Search McDonald's", Robert will print first two sentences from McDonald's wikipedia page. McDonald's Corporation is an American fast food company, founded in 1940 as a restaurant operated by Richard and Maurice McDonald, in San Bernardino, California, United States. They rechristened their business as a hamburger stand, and later turned the company into a franchise, with the Golden Arches logo being introduced in 1953 at a location in Phoenix, Arizona.
+
+Google Translate API: Translates user's input from different language supported by google translate to english. 
+
+### Features added for Assignment 3
+
 
 - Misspelling handling via Porter Stemmer.
 > Program stems user input and checks against stemmed sentences on the backend, allowing the system to handle minor gramatical errors.
