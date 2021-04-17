@@ -13,8 +13,8 @@ This program is meant to be a simple chatbot capable of 30 rounds of semi-natura
 Wikipedia API: When user types "Search" + any word, Robot Robert returns first two sentences from wikipedia page of that word. For example: if you type in "Search McDonald's", Robert will print first two sentences from McDonald's wikipedia page. McDonald's Corporation is an American fast food company, founded in 1940 as a restaurant operated by Richard and Maurice McDonald, in San Bernardino, California, United States. They rechristened their business as a hamburger stand, and later turned the company into a franchise, with the Golden Arches logo being introduced in 1953 at a location in Phoenix, Arizona.
 
 Google Translate API: Translates user's input from different language supported by google translate to english. 
-![POS](https://github.com/askarbol/COSC310-Project-Askar/blob/main/Images/wiki.png)
-POS Tagging
+![Wiki](https://github.com/askarbol/COSC310-Project-Askar/blob/main/Images/wiki.png)
+Wiki API
 ### Features added for Assignment 3
 
 
